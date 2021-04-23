@@ -9,7 +9,7 @@ for (let row = 0; row < 9; row++)
 const fetchInput = () => {
     for (let row = 0; row < 9; row++)
         for (let col = 0; col < 9; col++) {
-            el = document.querySelector(`#row-${row} #col-${col}`);
+            const el = document.querySelector(`#row-${row} #col-${col}`);
             numbersMatrix[row][col] = parseInt(el.innerText);
         }
 }
@@ -36,7 +36,7 @@ const solvePuzzle = async () => {
 const showOutput = () => {
     for (let row = 0; row < 9; row++)
         for (let col = 0; col < 9; col++) {
-            el = document.querySelector(`#row-${row} #col-${col}`);
+            const el = document.querySelector(`#row-${row} #col-${col}`);
             el.innerText = numbersMatrix[row][col];
         }
 }

@@ -25,12 +25,14 @@ table {
     border-radius: 5px;
     background-color: #fff;
     border-collapse: collapse;
+    overflow: hidden;
+    /* box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%); */
 }
 
 td {
     color: var(--main-color);
     border: 1px solid var(--main-color);
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 tr:nth-child(3),
@@ -49,7 +51,7 @@ td:nth-child(6) {
     padding-top: 15px;
 }
 
-.controls button{
+.controls button {
     border: none;
     border-radius: 5px;
     padding: 6px 12px;
