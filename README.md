@@ -3,19 +3,19 @@ AI course project.
 
 ![sudoku](sudoku.png)
 
----
+<!-- --- -->
 
 ## Team Members
 - Mohamed Mousa
 - Hazem Essam Saleh - Sec 3
 
----
+<!-- --- -->
 
 ## Requirements
 - Python 3
 - Flask
 
----
+<!-- --- -->
 
 ## Installation & Setup
 1. Clone the repo and access it:
