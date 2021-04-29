@@ -1,5 +1,4 @@
-# Sudoku Solver <small> AI Course Project </small>
-<!-- AI course project. -->
+# Sudoku Solver - AI Course Project
 ![sudoku](sudoku.png)
 
 <!-- --- -->
