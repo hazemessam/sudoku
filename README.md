@@ -1,5 +1,5 @@
 # Sudoku Solver - AI Course Project
-![sudoku](sudoku.png)
+![sudoku](static/sudoku.png)
 
 <!-- --- -->
 
