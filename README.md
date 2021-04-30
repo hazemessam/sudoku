@@ -4,7 +4,7 @@
     <img src="static/img/input.png" alt="input" title="input" style="width: 50%">
     <img src="static/img/output.png" alt="output" title="output" style="width: 50%">
 </div> -->
-<table>
+<!-- <table>
     <tr>
         <td style="padding: 0px">
              <img src="static/img/input.png">
@@ -13,8 +13,15 @@
             <img src="static/img/output.png">
         </td>
     </tr>
-</table>
+</table> -->
+
 <!-- --- -->
+
+
+<div align="center">
+    <img src="static/img/input.png" width="45%">
+    <img src="static/img/output.png" width="45%">
+</div>
 
 ## Team Members
 - Mohamed Ayman Mousa - Sec 8
