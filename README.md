@@ -6,10 +6,10 @@
 </div> -->
 <table>
     <tr>
-        <td style="padding: 0 2px 0 0">
+        <td style="padding: 0px">
              <img src="static/img/input.png">
         </td>
-        <td style="padding: 0 0 0 2px">
+        <td style="padding: 0px">
             <img src="static/img/output.png">
         </td>
     </tr>
