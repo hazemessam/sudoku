@@ -10,7 +10,10 @@ const fetchInput = () => {
     for (let row = 0; row < 9; row++)
         for (let col = 0; col < 9; col++) {
             const el = document.querySelector(`#row-${row} #col-${col}`);
-            numbersMatrix[row][col] = parseInt(el.innerText);
+            if (el.textContent != '') {
+                numbersMatrix[row][col] = parseInt(el.textContent);
+                el.style.backgroundColor = '#eee';
+            } else numbersMatrix[row][col] = null;
         }
 }
 
@@ -26,7 +29,9 @@ const solvePuzzle = async () => {
     const data = await res.json();
     try {
         const solvedMatrix = data.matrix;
-        numbersMatrix = solvedMatrix;
+        for (let row = 0; row < 9; row++)
+            for (let col = 0; col < 9; col++)
+                numbersMatrix[row][col] = solvedMatrix[row][col];
     } catch (err) {
         console.log(err);
     }
@@ -42,14 +47,14 @@ const showOutput = () => {
 }
 
 
-solveBtn.addEventListener('click', (e) => {
+solveBtn.addEventListener('click', async (e) => {
     fetchInput();
-    // solvePuzzle();
-    // showOutput();
+    await solvePuzzle();
+    showOutput();
+    e.target.disabled = true;
     console.log(numbersMatrix);
 });
 
-// TODO
 resetBtn.addEventListener('click', (e) => {
-
+    location.reload()
 });
