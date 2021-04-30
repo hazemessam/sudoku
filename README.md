@@ -19,8 +19,8 @@
 
 
 <div align="center">
-    <img src="static/img/input.png" width="45%">
-    <img src="static/img/output.png" width="45%">
+    <img src="static/img/input.png" width="49%">
+    <img src="static/img/output.png" width="49%">
 </div>
 
 ## Team Members
