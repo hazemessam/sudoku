@@ -1,6 +1,9 @@
 # Sudoku Solver - AI Course Project
-![sudoku](static/sudoku.png)
-
+<!-- ![sudoku](static/img/sudoku.png "input") -->
+<div style="display: flex; gap: 5px">
+    <img src="static/img/input.png" alt="input" title="input" style="width: 50%">
+    <img src="static/img/output.png" alt="output" title="output" style="width: 50%">
+</div>
 <!-- --- -->
 
 ## Team Members
